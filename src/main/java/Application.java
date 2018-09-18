@@ -25,7 +25,6 @@ public class Application {
         FileConfigReader fileConfigReader = new FileConfigReader(file);
         GameConfiguration gameConfiguration = fileConfigReader.readGameConfig();
 
-        int size = gameConfiguration.getSize();
         TicTacToeBoard ticTacToeBoard = new TicTacToeBoard(gameConfiguration.getSize());
 
 
