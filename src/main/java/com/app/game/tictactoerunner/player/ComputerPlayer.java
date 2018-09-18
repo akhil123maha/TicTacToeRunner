@@ -3,8 +3,6 @@ package com.app.game.tictactoerunner.player;
 
 import com.app.game.tictactoerunner.components.TicTacToeBoard;
 
-import java.util.Random;
-
 public class ComputerPlayer extends Player {
     private final TicTacToeBoard ticTacToeBoard;
 

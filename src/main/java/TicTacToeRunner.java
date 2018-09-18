@@ -1,13 +1,9 @@
 import com.app.game.tictactoerunner.components.GameState;
 import com.app.game.tictactoerunner.components.TicTacToeBoard;
-import com.app.game.tictactoerunner.config.FileConfigReader;
-import com.app.game.tictactoerunner.config.GameConfiguration;
-import com.app.game.tictactoerunner.player.*;
+import com.app.game.tictactoerunner.player.Player;
+import com.app.game.tictactoerunner.player.Players;
 
-import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by AKHIL-JARVIS on 15-09-2018.
